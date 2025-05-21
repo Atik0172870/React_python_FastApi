@@ -1,0 +1,70 @@
+.fruit-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100dvh;
+    border: 1px solid #ccc;
+
+    .fruit-list-div {
+
+        .button {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #2fac9b;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 1rem;
+
+            &:hover {
+                background-color: #5c9b92;
+            }
+        }
+
+        tr:hover {
+            background-color: #f0f0f0;
+            cursor: pointer;
+        }
+
+        .fruit-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+
+            th,
+            td {
+                padding: 0.5rem;
+                text-align: left;
+                border-bottom: 1px solid #ccc;
+            }
+
+            th {
+                background-color: #f2f2f2;
+            }
+
+            .btn-td {
+
+                color: red;
+                cursor: pointer;
+            }
+
+            .delete-btn {
+                color: red;
+                cursor: pointer;
+                background-color: transparent;
+                border-radius: 4px;
+                padding: 0.5rem 1rem;
+                font-size: 1rem;
+                &:hover {
+                    background-color: #f8d7da;
+                    color: #721c24;
+                    border: 1px solid #b84a55;
+                }
+            }
+          
+        }
+
+
+    }
+}
